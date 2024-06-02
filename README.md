@@ -25,9 +25,7 @@ simple-calculator/
 │
 ├── .vscode/
 ├── bin/
-├── src/
-     └── App1.java
-│   
+├── src/ 
 └── README.md
 
  
