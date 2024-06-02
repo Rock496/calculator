@@ -26,6 +26,7 @@ simple-calculator/
 ├── .vscode/
 ├── bin/
 ├── src/ 
+|
 └── README.md
 
  
