@@ -26,14 +26,8 @@ simple-calculator/
 ├── .vscode/
 ├── bin/
 ├── src/
-│ ├── App1.java
-│ |── Main.java
-│ │── app1.css
-| |── close.png
-| |── hide.png
-│ |── icone.png
-| |── mainif.fxml
-| |── scenecontrol.java
+     └── App1.java
+│   
 └── README.md
 
  
