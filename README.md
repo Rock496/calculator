@@ -23,11 +23,17 @@ A simple calculator application built using Java and the JavaFX framework. This 
 ### Project Structure
 simple-calculator/
 │
+├── .vscode/
+├── bin/
 ├── src/
-│ ├── main/
-│ │ └── java/
-│ │ └── CalculatorApp.java
-│
+│ ├── App1.java
+│ |── Main.java
+│ │── app1.css
+| |── close.png
+| |── hide.png
+│ |── icone.png
+| |── mainif.fxml
+| |── scenecontrol.java
 └── README.md
 
  
