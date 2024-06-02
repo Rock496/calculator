@@ -21,6 +21,13 @@ A simple calculator application built using Java and the JavaFX framework. This 
 2. Set up your IDE to use the JavaFX libraries.
 
 ### Project Structure
-
+simple-calculator/
+│
+├── src/
+│ ├── main/
+│ │ └── java/
+│ │ └── CalculatorApp.java
+│
+└── README.md
 
  
