@@ -1,0 +1,12 @@
+.root {
+    -fx-background-color: #222;
+    -fx-background-radius: 28;
+}
+.man{
+    -fx-background-color: linear-gradient(to bottom left, #cd4a1b, #678515);
+    -fx-background-radius: 15 15 25 25;
+}
+.high{
+    -fx-background-color: #00000086;
+    -fx-background-radius: 15;
+}

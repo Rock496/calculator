@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="450.0" stylesheets="@app1.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenecontrol">
+   <children>
+      <Pane layoutY="41.0" prefHeight="558.0" prefWidth="450.0" styleClass="man">
+         <children>
+            <Pane layoutX="13.0" layoutY="8.0" prefHeight="87.0" prefWidth="425.0" styleClass="high">
+               <children>
+                  <Label fx:id="result" alignment="CENTER_RIGHT" layoutX="3.0" layoutY="17.0" prefHeight="53.0" prefWidth="408.0" text="0.0" textFill="#030303">
+                     <font>
+                        <Font name="System Bold" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt1" layoutX="14.0" layoutY="104.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="20.0" layoutY="20.0" text=" 1" textFill="#030303">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt3" layoutX="230.0" layoutY="104.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="35.0" layoutY="20.0" text="3" textFill="#030303">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt2" layoutX="121.0" layoutY="104.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="35.0" layoutY="20.0" text="2" textFill="#030303">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btadd" layoutX="337.0" layoutY="104.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="32.0" layoutY="20.0" text="+" textFill="#030303">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt4" layoutX="14.0" layoutY="219.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="35.0" layoutY="20.0" text="4" textFill="#030303">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt5" layoutX="121.0" layoutY="219.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="35.0" layoutY="20.0" text="5" textFill="#030303">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt6" layoutX="230.0" layoutY="219.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="36.0" layoutY="20.0" text="6" textFill="#030303">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btsub" layoutX="337.0" layoutY="219.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="36.0" layoutY="20.0" text="-" textFill="#030303">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt7" layoutX="13.0" layoutY="328.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="35.0" layoutY="20.0" text="7" textFill="#030303">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btclear" layoutX="14.0" layoutY="438.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="25.0" layoutY="20.0" text="CE" textFill="#030303">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt8" layoutX="121.0" layoutY="328.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="35.0" layoutY="20.0" text="8" textFill="#030303">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt9" layoutX="230.0" layoutY="328.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="35.0" layoutY="20.0" text="9" textFill="#030303">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btmultiply" layoutX="337.0" layoutY="328.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="36.0" layoutY="20.0" text="*" textFill="#030303">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt0" layoutX="121.0" layoutY="438.0" onMouseClicked="#onNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="35.0" layoutY="20.0" text="0" textFill="#030303">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btequal" layoutX="230.0" layoutY="438.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="35.0" layoutY="20.0" text="=" textFill="#030303">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btdivide" layoutX="337.0" layoutY="438.0" onMouseClicked="#onSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="high">
+               <children>
+                  <Label layoutX="35.0" layoutY="20.0" text="/" textFill="#030303">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+         </children>
+      </Pane>
+      <Pane fx:id="titlePane" prefHeight="36.0" prefWidth="471.0">
+         <children>
+            <ImageView fx:id="btclose" fitHeight="37.0" fitWidth="38.0" layoutX="399.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@close.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btMin" fitHeight="29.0" fitWidth="40.0" layoutX="364.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hide.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="58.0" layoutY="5.0" prefHeight="23.0" prefWidth="109.0" text="Calculator" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="28.0" fitWidth="29.0" layoutX="21.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
